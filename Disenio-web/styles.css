@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-size: 2.5vh;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 .img-desc {
     position: relative;
     height: 100vh;
+    position: 1;
 }
 
 .img-desc img {
@@ -38,12 +45,31 @@ h1 {
 }
 
 .login-box {
-    position: relative;
-}
+    background-color: #f0f0f0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3.5vh;
+    width: 100vh;
+    height: 55vh;
+    bottom: 0;
+    
+    }
 
 .input-email {
     position: absolute;
-    top: 70%;
-    left: 50%;
-    z-index: 600;
+    font-family: "inter", sans-serif;
+    font-size: 25px;
+    top: 3vh;
+    left: 1%;
+
+}
+
+.input-password {
+    position: absolute;
+    font-family: "inter", sans-serif;
+    font-size: 25px;
+    top: 10vh;
+    left: 1%;
 }
