@@ -1,4 +1,40 @@
 * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+.display {
+    position: relative;
+    height: 100vh;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #b1b1b1;
+    margin: auto;
+    width: 25vh;
+    padding: 1.5%;
+    margin-top: 2%;
+    background-color: #5FAD56;
+    color: #FFFFFF;
+    font-family: 'inter', sans-serif;
+    border-radius: 30px;
+}
+
+
+.register-button {
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #b1b1b1;
+    padding: 1%;
+}
+/*
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -11,15 +47,10 @@
     height: 100vh;
 }
 
-.img-desc {
-    position: relative;
-    height: 100vh;
-    position: 1;
-}
 
 .img-desc img {
     position: absolute;
-    width: 130%;
+    width: 58vh;
     height: auto;
     margin: top;
     transform: translate(-11%);
@@ -29,7 +60,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 58vh;
     height: 50%;
     background: linear-gradient(rgba(52, 255, 30, 0.8), rgba(255, 255, 255, 0.7));
     font-size: 50px;
@@ -44,27 +75,38 @@ h1 {
     z-index: 250;
 }
 
+h2 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    font-family: "inter", sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    z-index: 500;
+}
+
 .login-box {
     background-color: #f0f0f0;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 3.5vh;
-    width: 100vh;
+    padding: 4vh;
+    width: 50vh;
     height: 55vh;
     bottom: 0;
-    
+    border-radius: 80;
     }
 
 .input-email {
     position: absolute;
     font-family: "inter", sans-serif;
     font-size: 25px;
-    top: 3vh;
+    top: 8vh;
     left: 1%;
 
 }
+
 
 .input-password {
     position: absolute;
@@ -73,3 +115,5 @@ h1 {
     top: 10vh;
     left: 1%;
 }
+
+*/

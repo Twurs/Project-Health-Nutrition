@@ -1,6 +1,6 @@
 // script.js
 
-document.addEventListener('DOMContentLoaded', () => {
+/* document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
     const showPasswordButton = document.querySelector('.show-password');
     const passwordInput = document.getElementById('password');
@@ -22,4 +22,4 @@ document.addEventListener('DOMContentLoaded', () => {
         // Aquí puedes añadir la lógica para manejar el inicio de sesión
         alert(`E-mail: ${email}\nContraseña: ${password}`);
     });
-});
+});*/
