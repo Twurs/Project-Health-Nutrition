@@ -12,7 +12,10 @@
     max-width: 100vh;
     height: 100vh;
     padding: 2rem;
+    padding-right: 3rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -21,10 +24,16 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vh;
-    height: 100vh;
-    transform: translateX(-10%);
+    background-image: url(Images/salad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vh;
+    height: 100vw;
     z-index: 10;
+    justify-content: center;
+    overflow: hidden;
+    transform: translateX(-3%);
 }
 
 
@@ -58,9 +67,14 @@ h1 {
     background-color: #FFFFFF;
     border-top-left-radius: 20px;
     margin: 50vh auto 0;
+    box-sizing: border-box;
 }
 
-
+.login-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 .login-form p {
     text-align: center;
@@ -76,7 +90,9 @@ h1 {
     justify-content: center;
     background-color: #000000;
     margin: auto;
-    border-radius: 20px;
+    margin-top: 4vh;
+    border-radius: 3vh;
+    
 }
 
 
@@ -85,53 +101,62 @@ h1 {
     padding: 2vh 2vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    max-width: 100%;
 }
+
 
 
 .input-email label, .input-password label {
+    text-align: left;
     margin-bottom: 0.5rem;
     font-size: 5vw;
-    transform: translateX(-110%);
 }
 
-.input-email label {
-    transform: translateX(-243%);
-}
+
 
 .input-email input, .input-password input {
     background-color: #5FAD56;
     color: #525252;
-    width: 86vw;
-    padding: 1rem;
+    width: 82vw;
+    padding: 1.5vh;
     font-size: 3.5vw;
-    border-radius: 30px;
+    border-radius: 2vh;
     border: none;
 }
 
+.input-password .linkpassword-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 0.5rem;
+}
 
 #link-forgotpassword, #link-register {
     font-size: 3vw;
     color: #000000;
-    text-align: center;
-    display:inline-block;
     margin-top: 0.5rem;
 }
 
+
+
 #link-forgotpassword {
-    transform: translateX(60%);
+    font-size: 3vw;
+    color: #000000;
 }
 
 .login-button {
-    width: 100%;
-    padding: 1rem;
-    margin: 2rem auto 0;
+    width: 80%;
+    padding: 2vh;
+    margin: 3vh auto;
     background-color: #5FAD56;
     color: #FFFFFF;
     font-size: 4vw;
-    border-radius: 30px;
+    border-radius: 2vh;
     text-align: center;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
 
